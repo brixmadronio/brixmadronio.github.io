@@ -1,0 +1,123 @@
+body {
+    scroll-behavior: smooth;
+}
+
+
+/* Color of the links BEFORE scroll */
+
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+    color: #fff;
+}
+
+
+/* Color of the links AFTER scroll */
+
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+    color: #fff;
+}
+
+
+/* Color of the navbar AFTER scroll */
+
+.navbar-scroll,
+.navbar-scrolled {
+    background-color: #cbbcb1;
+}
+
+.mask-custom {
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, .15);
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+    letter-spacing: 3px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner {
+    min-height: 100vh;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url("../img/background-3.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.banner2 {
+    min-height: 100vh;
+    background-color: #6d837d;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.banner3 {
+    min-height: 100vh;
+    background-color: #445f58;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.imgbrx {
+    height: 300px;
+    width: 300px;
+    float: right;
+    border-radius: 100%;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.icon:hover {
+    color: aqua;
+    transition: 1s;
+}
+
+.was {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.awards {
+    font-size: 15px;
+}
+
+.carde {
+    margin-left: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+    .banner {
+        height: 100vh;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url("../img/background-3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
+    .was {
+        font-size: 50px;
+    }
+    .carde {
+        margin-left: 0px;
+    }
+    .name {
+        font-size: 15px;
+    }
+    .nav-link {
+        margin-right: 10px;
+    }
+    .ss1 {
+        margin-bottom: 30px;
+    }
+    .icon {
+        margin-left: 10px;
+    }
+}
