@@ -121,4 +121,10 @@ body {
     .icon {
         margin-left: 10px;
     }
+    .cn {
+        font-size: 15px;
+    }
+    .cn1 {
+        font-size: 17px;
+    }
 }
